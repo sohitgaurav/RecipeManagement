@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class RecipeComment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long commentId;
+    private Integer commentId;
 
     private String commentBody;
 

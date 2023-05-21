@@ -12,7 +12,7 @@ import java.util.UUID;
 public class AuthenticationToken {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long tokenId;
+    private Integer tokenId;
     private String token;
     private LocalDate tokenCreationDate;
 
