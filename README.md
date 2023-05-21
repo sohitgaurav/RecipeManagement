@@ -76,27 +76,15 @@ java project using annotation validation mapping  Authantication mySql database
        * getRecipeById
        * removeProductByProductId    
    * CommentService
-         
-
-### Product service
-   * save
-   * findByProductCategory
-   * removeProductByProductId
-### AddressService
-   * save
-   * getAddressById
-### OrderService
-   *  createOrder
-   *  fetchOrder
-
- 
-
-
-
-
+       *  addComment
+ ### repository
+   * IUserRepo
+   * IRecipeRepo
+   * ICommentRepo
+   * ITokenRepo
 
 ### Database used
 * my sql  workbench
 
 ##  About Project
-* this Project is the about information about users and address
+* this Project is the about information about recipe User Signup SignIn and Comment on recipe
